@@ -1,0 +1,24 @@
+:root {
+  --title-primary: 64px;
+  --title-secondary: 40px;
+
+  --paragraph-primary: 18px;
+  --paragraph-secondary: 16px;
+
+  --border-radius-btn: 4px;
+  --border-radius-email: 4px 0px 0px 4px;
+
+  --color-txt-primary: #35414B;
+  --color-txt-secondary: #4E5A65;
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F0EBFA;
+  --color-btn: #794CFF;
+  --color-btn-get-started: #ECE5FF;
+  --color-btn-promo: #81C43B;
+  --color-btn-promo2: #F2F9EB;
+
+
+  
+  
+  
+}
