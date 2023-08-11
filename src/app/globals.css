@@ -6,7 +6,10 @@
   --paragraph-secondary: 16px;
 
   --border-radius-btn: 4px;
+  --border-radius-btn-promo: 100px;
   --border-radius-email: 4px 0px 0px 4px;
+
+  --padding-btn-promo: 8px 16px;
 
   --color-txt-primary: #35414B;
   --color-txt-secondary: #4E5A65;
@@ -16,9 +19,11 @@
   --color-btn-get-started: #ECE5FF;
   --color-btn-promo: #81C43B;
   --color-btn-promo2: #F2F9EB;
+}
 
-
-  
-  
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
