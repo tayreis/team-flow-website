@@ -1,7 +1,12 @@
 "use client"
 
-import Image from "next/image";
 import Hero from "../Hero/Hero";
+import  { styled }  from "styled-components"
+
+
+const StyledMain = styled.main `
+   
+`
 
 export default function Main() {
     return (

@@ -1,9 +1,15 @@
 import  { styled }  from "styled-components"
 import ButtonPromo from "./ButtonPromo"
+import GraphImg from "./GraphImg"
+import PartnersImg from "./Partners"
+
 
 const HeroContainer = styled.section `
-    background-color: #f4f4f4;
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 `
 const FirstDiv = styled.div `
     display: flex;
@@ -33,7 +39,7 @@ const Input = styled.input `
     padding: 18px 100px 18px 24px ;
     /*border: #97A5B5 solid 1px;*/
     border-radius: var(--border-radius-btn);
-    border: none;
+    border: var(--color-txt-secondary) solid .2px;
 `
 
 const InputButton = styled.button `
@@ -46,11 +52,26 @@ const InputButton = styled.button `
     cursor: pointer;
 `
 
+const PartnersDiv = styled.div `
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 100px 0;
+
+    > p > span {
+        font-weight: bold;
+    }
+   
+
+`
 
 
 export default function Hero() {
     return (
-        <HeroContainer>
+        
+        <HeroContainer id="circle">
+
                 <FirstDiv>
                     <ButtonPromo/>
                     <HeroTitle>Manage the team <br /> everyone wants to be on</HeroTitle>
@@ -62,13 +83,15 @@ export default function Hero() {
                         <InputButton type="submit">Try it free</InputButton>
                     </InputDiv>
                 </FirstDiv>
-                
-                
-                <p>TRUSTED BY OVER <span>10.000+</span> WORLD’S BEST TEAMS</p>
-                <div>
-                   
-              
-                </div>
+                <>
+                <GraphImg/>
+                </>
+                <PartnersDiv>
+                    <p>TRUSTED BY OVER <span>10.000+</span> WORLD’S BEST TEAMS</p>
+                    <PartnersImg/>
+                </PartnersDiv>
+
             </HeroContainer>
+           
     )
 }

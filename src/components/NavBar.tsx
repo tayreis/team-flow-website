@@ -4,6 +4,7 @@ import ArrowDown from "./ArrowDown"
 const NavContainer = styled.nav `
     display: flex;
     gap: 45px;
+    
 
 `
 const Links = styled.a `

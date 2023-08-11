@@ -10,6 +10,7 @@ const TagHeader = styled.header `
     align-items: center;
     justify-content: space-around;
     padding-top: 48px;
+
 `
 
 export default function Header() {
