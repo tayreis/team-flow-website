@@ -1,11 +1,9 @@
 "use client"
 
 import  { styled }  from "styled-components"
-import Link from 'next/link';
 import Logo from './Logo';
-import ButtonStarted from './ButtonStarted';
-import ButtonLogin from './ButtonLogin';
 import NavBar from "./NavBar";
+import Buttons from "./Buttons";
 
 const TagHeader = styled.header `
     display: flex;
@@ -17,18 +15,15 @@ const TagHeader = styled.header `
 export default function Header() {
     return (
         <TagHeader>
-            <Link href="#">
-                <Logo/>
-            </Link>
+            <Logo/>
 
             <>
             <NavBar/>
             </>
-
-            <div>
-                <ButtonLogin/>
-                <ButtonStarted/>
-            </div>
+            
+            <>
+            <Buttons/>
+            </>
         </TagHeader>
     )
 }
