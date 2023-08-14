@@ -5,6 +5,7 @@ import Benefits from "../Benefits/Benefits";
 import Features from "../Features/Features";
 import Hero from "../Hero/Hero";
 import Numbers from "../Numbers/Numbers";
+import Testimonials from "../Testimonials/Testimonials";
 
 
 const StyledMain = styled.main `
@@ -19,6 +20,7 @@ export default function Main() {
             <Benefits/>
             <Features/>
             <Numbers/>
+            <Testimonials/>
         </StyledMain>
     )
 }
