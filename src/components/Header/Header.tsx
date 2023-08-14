@@ -1,7 +1,7 @@
 "use client"
 
 import  { styled }  from "styled-components"
-import Logo from './Logo';
+import Logo from '../Logo';
 import NavBar from "./NavBar";
 import Buttons from "./Buttons";
 

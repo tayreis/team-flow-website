@@ -1,5 +1,5 @@
 import  { styled }  from "styled-components"
-import ArrowDown from "./ArrowDown"
+import ArrowDown from "../ArrowDown"
 
 const NavContainer = styled.nav `
     display: flex;
