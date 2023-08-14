@@ -1,5 +1,5 @@
-import ButtonLogin from "./ButtonLogin";
-import ButtonStarted from "./ButtonStarted";
+import ButtonLogin from "../Buttons/ButtonLogin";
+import ButtonStarted from "../Buttons/ButtonStarted";
 
 export default function Buttons() {
     return (

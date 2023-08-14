@@ -1,5 +1,5 @@
 import  { styled }  from "styled-components"
-import ButtonPromo from "./ButtonPromo"
+import ButtonPromo from "../Buttons/ButtonPromo"
 import GraphImg from "./GraphImg"
 import PartnersImg from "./Partners"
 
