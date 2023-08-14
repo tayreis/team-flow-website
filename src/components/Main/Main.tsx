@@ -6,6 +6,7 @@ import Features from "../Features/Features";
 import Hero from "../Hero/Hero";
 import Numbers from "../Numbers/Numbers";
 import Testimonials from "../Testimonials/Testimonials";
+import Footer from "../Footer/Footer";
 
 
 const StyledMain = styled.main `
@@ -21,6 +22,7 @@ export default function Main() {
             <Features/>
             <Numbers/>
             <Testimonials/>
+            <Footer/>
         </StyledMain>
     )
 }
